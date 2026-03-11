@@ -1,5 +1,5 @@
 print('*** Calculadora en Python ***')
-operando1 = operando2 = resultado = 0 # Definimos las variables
+operando1 = operando2 = resultado = 0  # Definimos las variables
 salir = False
 while not salir:
     print(f'''Operaciones que puedes realizar:
@@ -10,25 +10,25 @@ while not salir:
     5. Salir''')
     opcion = int(input('Escoge una opción: '))
     # Validamos que no sea la opción 5
-    #if opcion <= 1 and opcion <= 4:
+    # if opcion <= 1 and opcion <= 4:
     if 1 <= opcion <= 4:
         # Solicitamos los valores
         operando1 = float(input('Dame el valor 1: '))
         operando2 = float(input('Dame el valor 2: '))
     # Revisamos el tipo de operación a realizar
-    if opcion == 1: # Suma
+    if opcion == 1:  # Suma
         resultado = operando1 + operando2
         print(f'El resultado de la suma es: {resultado:.2f}\n')
-    elif opcion == 2: # Resta
+    elif opcion == 2:  # Resta
         resultado = operando1 - operando2
         print(f'El resultado de la resta es: {resultado:.2f}\n')
-    elif opcion == 3: # Multiplicación
+    elif opcion == 3:  # Multiplicación
         resultado = operando1 * operando2
         print(f'El resultado de la multiplicación es: {resultado:.2f}\n')
-    elif opcion == 4: # División
+    elif opcion == 4:  # División
         resultado = operando1 / operando2
         print(f'El resultado de la división es: {resultado:.2f}\n')
-    elif opcion == 5: # Salir
+    elif opcion == 5:  # Salir
         print(f'Saliendo del programa de Calculadora. ¡Hasta pronto!')
         salir = True
     else:

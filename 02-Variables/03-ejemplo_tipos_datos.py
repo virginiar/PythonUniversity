@@ -5,7 +5,7 @@ puntaje = -10
 # Flotante (float)
 altura = 1.75
 pi = 3.1416
-PI = 3.1416 # asi se define una constante en Python
+PI = 3.1416  # asi se define una constante en Python
 
 # Cadenas (str)
 nombre = 'Juan'

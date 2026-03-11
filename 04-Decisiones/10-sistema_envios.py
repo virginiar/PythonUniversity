@@ -8,7 +8,7 @@ TARIFA_INTERNACIONAL = 20
 destino = input('Ingresa el destino del paquete (nacional o internacional): ')
 peso = float(input('Ingresa el peso del paquete (en kg): '))
 
-costo_envio = None # Definimos la variable de costo de envío
+costo_envio = None  # Definimos la variable de costo de envío
 
 # Cálculo del costo de envío
 if destino.lower() == 'nacional':

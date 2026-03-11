@@ -5,5 +5,5 @@ concatenacion = cadena1 + ' ' + cadena2
 print(concatenacion)
 
 # Utilizando el método str.join
-concatenacion = "".join([cadena1,' ',cadena2])
+concatenacion = "".join([cadena1, ' ', cadena2])
 print(concatenacion)

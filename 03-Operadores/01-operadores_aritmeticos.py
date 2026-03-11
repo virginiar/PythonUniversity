@@ -28,6 +28,5 @@ modulo = a % b
 print(f'Módulo: {modulo}')
 
 # Potencia **
-potenciacion = a ** b # 10 elevado a 3 -> 10*10*10
+potenciacion = a ** b  # 10 elevado a 3 -> 10*10*10
 print(f'Potencia: {potenciacion}')
-

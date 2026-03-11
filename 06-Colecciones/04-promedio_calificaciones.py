@@ -6,7 +6,7 @@ calificaciones = []
 # Iteramos las calificaciones
 for indice in range(total_calificaciones):
     calificacion = int(input(f'Calificación[{indice}] = '))
-    calificaciones.append(calificacion) # Agregamos la calificación a la lista
+    calificaciones.append(calificacion)  # Agregamos la calificación a la lista
 
 # Imprimimos las calificaciones proporcionadas
 print(f'\nLas calificaciones proporcionadas son: {calificaciones}')

@@ -1,6 +1,6 @@
 print('*** Aplicación de cajero automático ***')
 
-saldo = 1000 # saldo inicial
+saldo = 1000  # saldo inicial
 salir = False
 while not salir:
     print(f'''Operaciones que puedes realizar:

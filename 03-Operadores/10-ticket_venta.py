@@ -10,7 +10,7 @@ descuento_porcentaje = int(input('¿Aplicar algún descuento(%)? '))
 subtotal = precio_leche + precio_pan + precio_lechuga + precio_platanos
 
 # Aplicar el descuento
-descuento = subtotal * (descuento_porcentaje/100)
+descuento = subtotal * (descuento_porcentaje / 100)
 
 # Subtotal con descuento
 subtotal_con_descuento = subtotal - descuento

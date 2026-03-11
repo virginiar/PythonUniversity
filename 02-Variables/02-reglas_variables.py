@@ -1,6 +1,6 @@
 # Ejemplo de reglas de variables
 # Definición de variables con nombres descriptivos
-#Nombre_completo = "Juan Perez" no es buena práctica
+# Nombre_completo = "Juan Perez" no es buena práctica
 nombre_completo = "Juan Perez"
 edad_usuario = 30
 correo_electronico = "juan@mail.com"

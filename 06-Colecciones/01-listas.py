@@ -6,7 +6,6 @@ mi_lista = [1, 2, 3, 4, 5]
 print(f'Accedemos al valor del índice 4: {mi_lista[4]}')
 print(f'Accedemos al último índice de la lista: {mi_lista[-1]}')
 
-
 # Modificamos el elemento de la lista
 mi_lista[1] = 10
 print(f'Modificamos el valor del índice 1: {mi_lista[1]}')
@@ -33,5 +32,5 @@ print(mi_lista)
 print(f'Largo de la lista: {len(mi_lista)}')
 
 # Obtener una sublista
-sublista = mi_lista[1:3] # obtiene na lista del indice 1 al 2 (no incluye el 3)
+sublista = mi_lista[1:3]  # obtiene na lista del indice 1 al 2 (no incluye el 3)
 print(f'Sublista: {sublista}')

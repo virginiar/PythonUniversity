@@ -9,11 +9,11 @@ es_miembro = input('¿Eres miembro de la tienda (si/no)? ')
 descuento = 0
 # Verificamos los datos del cliente
 if monto_compra >= MONTO_COMPRA_DESC and es_miembro.lower() == 'si':
-    descuento = 0.1 # Descuento del 10%
+    descuento = 0.1  # Descuento del 10%
 elif es_miembro.lower() == 'si':
-    descuento = .05 # Descuento del 5%
+    descuento = .05  # Descuento del 5%
 elif monto_compra >= MONTO_COMPRA_DESC:
-    descuento = .03 # Descuento del 3%
+    descuento = .03  # Descuento del 3%
 else:
     descuento = 0
 

@@ -1,7 +1,7 @@
 print('*** Boletín informativo ***')
 
 # Definimos el set inicial
-#suscriptores = {} #aqui se está definiendo un diccionario vacío, esto no nos sirve
+# suscriptores = {} #aqui se está definiendo un diccionario vacío, esto no nos sirve
 suscriptores = set()
 
 numero_suscriptores = int(input('Proporciona el número de suscriptores iniciales: '))

@@ -20,8 +20,7 @@ print(f'Coordenada y: {coordenadas[1]}')
 
 # Crear una tupla de solo un elemento (unitaria)
 tupla_un_elemento = 10,  # si no se pone la coma, no es una tupla sino un tipo entero individual
-print(tupla_un_elemento) # observar lo que despliega
+print(tupla_un_elemento)  # observar lo que despliega
 
 tupla_anidada = (1, (2, 3), (4, 5))
 print(tupla_anidada[1])  # Salida: (2, 3)
-

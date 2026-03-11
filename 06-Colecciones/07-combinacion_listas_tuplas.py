@@ -13,9 +13,9 @@ precio_total = 0
 
 print(f'Información de los productos: ')
 for producto in productos:
-    #print(producto)
+    # print(producto)
     identificador, descripcion, precio = producto  # unpacking
     print(f'Producto: id = {identificador}, descripcion = {descripcion}, precio = {precio}')
-    precio_total += precio # producto[2] para obtener el precio
+    precio_total += precio  # producto[2] para obtener el precio
 
 print(f'Precio total de los productos: {precio_total}')
