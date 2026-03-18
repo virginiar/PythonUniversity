@@ -1,0 +1,21 @@
+/* Definición de estilos CSS en un archivo externo */
+/* 3. CSS externos*/
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    color: hotpink;
+}
+a:hover {
+    color: yellow;
+}
+
+/* Clases y selectores en CSS*/
+/* p.texto-centrado { */
+texto-centrado {
+    text-align: center;
+}
+.titulo {
+    font-size: 200%;
+}
