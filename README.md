@@ -35,7 +35,9 @@ y financiado por [FUNDAE](https://www.fundae.es/).
 - Clases y objetos
 - Herencia y polimorfismo
 - Encapsulamiento y abstracción
-  **Manejo de Archivos:**
+
+**Manejo de Archivos:**
+
 - Lectura y escritura de archivos
 - Aplicación de manejo de archivos
 
